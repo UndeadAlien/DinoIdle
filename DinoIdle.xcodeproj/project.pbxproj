@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86202332C64A24D00DF05D4 /* DinoIdleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86202322C64A24D00DF05D4 /* DinoIdleApp.swift */; };
+		B86202372C64A24F00DF05D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86202362C64A24F00DF05D4 /* Assets.xcassets */; };
+		B862023A2C64A24F00DF05D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86202392C64A24F00DF05D4 /* Preview Assets.xcassets */; };
+		B86202422C64A34900DF05D4 /* Dinosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86202412C64A34900DF05D4 /* Dinosaur.swift */; };
+		B86202472C64ACDE00DF05D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86202462C64ACDE00DF05D4 /* Item.swift */; };
+		B862024D2C65C9A900DF05D4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862024C2C65C9A900DF05D4 /* GameState.swift */; };
+		B86202532C69934E00DF05D4 /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86202522C69934E00DF05D4 /* MainGameView.swift */; };
+		B86202572C69940E00DF05D4 /* DinosaurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86202562C69940E00DF05D4 /* DinosaurView.swift */; };
+		B862025C2C69BA7E00DF05D4 /* DinosaurDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862025B2C69BA7E00DF05D4 /* DinosaurDetailView.swift */; };
+		B862026D2C6A813000DF05D4 /* DropTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862026C2C6A813000DF05D4 /* DropTable.swift */; };
+		B862026F2C6ACC7A00DF05D4 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862026E2C6ACC7A00DF05D4 /* TabBarView.swift */; };
+		B86202712C6ACE0B00DF05D4 /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86202702C6ACE0A00DF05D4 /* CustomTabBarItem.swift */; };
+		B862027C2C6B36F200DF05D4 /* ResourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862027B2C6B36F100DF05D4 /* ResourceView.swift */; };
+		B862027E2C6B413C00DF05D4 /* ResourceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862027D2C6B413C00DF05D4 /* ResourceDetailView.swift */; };
+		B8B5C3692C898B39004C636D /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B5C3682C898B39004C636D /* ProgressBarView.swift */; };
+		B8B5C36B2C898B5C004C636D /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B5C36A2C898B5C004C636D /* Resource.swift */; };
+		B8D9A4472C91808A003A8BA3 /* DropTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D9A4462C91808A003A8BA3 /* DropTableManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B862022F2C64A24D00DF05D4 /* DinoIdle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinoIdle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86202322C64A24D00DF05D4 /* DinoIdleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoIdleApp.swift; sourceTree = "<group>"; };
+		B86202362C64A24F00DF05D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86202392C64A24F00DF05D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B86202412C64A34900DF05D4 /* Dinosaur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinosaur.swift; sourceTree = "<group>"; };
+		B86202462C64ACDE00DF05D4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B862024C2C65C9A900DF05D4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		B86202522C69934E00DF05D4 /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		B86202562C69940E00DF05D4 /* DinosaurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurView.swift; sourceTree = "<group>"; };
+		B862025B2C69BA7E00DF05D4 /* DinosaurDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurDetailView.swift; sourceTree = "<group>"; };
+		B862026C2C6A813000DF05D4 /* DropTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropTable.swift; sourceTree = "<group>"; };
+		B862026E2C6ACC7A00DF05D4 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		B86202702C6ACE0A00DF05D4 /* CustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
+		B862027B2C6B36F100DF05D4 /* ResourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceView.swift; sourceTree = "<group>"; };
+		B862027D2C6B413C00DF05D4 /* ResourceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDetailView.swift; sourceTree = "<group>"; };
+		B8B5C3682C898B39004C636D /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		B8B5C36A2C898B5C004C636D /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		B8D9A4462C91808A003A8BA3 /* DropTableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropTableManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B862022C2C64A24D00DF05D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86202262C64A24D00DF05D4 = {
+			isa = PBXGroup;
+			children = (
+				B86202312C64A24D00DF05D4 /* DinoIdle */,
+				B86202302C64A24D00DF05D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B86202302C64A24D00DF05D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B862022F2C64A24D00DF05D4 /* DinoIdle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86202312C64A24D00DF05D4 /* DinoIdle */ = {
+			isa = PBXGroup;
+			children = (
+				B8D9A4452C918073003A8BA3 /* Manager */,
+				B862026B2C6A04B400DF05D4 /* View */,
+				B86202402C64A33000DF05D4 /* Model */,
+				B8D9A4442C90D701003A8BA3 /* Custom */,
+				B8D9A44A2C92265C003A8BA3 /* Game */,
+				B86202362C64A24F00DF05D4 /* Assets.xcassets */,
+				B86202382C64A24F00DF05D4 /* Preview Content */,
+			);
+			path = DinoIdle;
+			sourceTree = "<group>";
+		};
+		B86202382C64A24F00DF05D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B86202392C64A24F00DF05D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B86202402C64A33000DF05D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B862026C2C6A813000DF05D4 /* DropTable.swift */,
+				B86202412C64A34900DF05D4 /* Dinosaur.swift */,
+				B86202462C64ACDE00DF05D4 /* Item.swift */,
+				B8B5C36A2C898B5C004C636D /* Resource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B862026B2C6A04B400DF05D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8D9A4492C922638003A8BA3 /* Resource */,
+				B8D9A4482C922632003A8BA3 /* Dinosaur */,
+				B862026E2C6ACC7A00DF05D4 /* TabBarView.swift */,
+				B86202522C69934E00DF05D4 /* MainGameView.swift */,
+				B8B5C3682C898B39004C636D /* ProgressBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8D9A4442C90D701003A8BA3 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				B86202702C6ACE0A00DF05D4 /* CustomTabBarItem.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		B8D9A4452C918073003A8BA3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B8D9A4462C91808A003A8BA3 /* DropTableManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B8D9A4482C922632003A8BA3 /* Dinosaur */ = {
+			isa = PBXGroup;
+			children = (
+				B86202562C69940E00DF05D4 /* DinosaurView.swift */,
+				B862025B2C69BA7E00DF05D4 /* DinosaurDetailView.swift */,
+			);
+			path = Dinosaur;
+			sourceTree = "<group>";
+		};
+		B8D9A4492C922638003A8BA3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B862027B2C6B36F100DF05D4 /* ResourceView.swift */,
+				B862027D2C6B413C00DF05D4 /* ResourceDetailView.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B8D9A44A2C92265C003A8BA3 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				B86202322C64A24D00DF05D4 /* DinoIdleApp.swift */,
+				B862024C2C65C9A900DF05D4 /* GameState.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B862022E2C64A24D00DF05D4 /* DinoIdle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B862023D2C64A24F00DF05D4 /* Build configuration list for PBXNativeTarget "DinoIdle" */;
+			buildPhases = (
+				B862022B2C64A24D00DF05D4 /* Sources */,
+				B862022C2C64A24D00DF05D4 /* Frameworks */,
+				B862022D2C64A24D00DF05D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinoIdle;
+			packageProductDependencies = (
+			);
+			productName = DinoIdle;
+			productReference = B862022F2C64A24D00DF05D4 /* DinoIdle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86202272C64A24D00DF05D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B862022E2C64A24D00DF05D4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B862022A2C64A24D00DF05D4 /* Build configuration list for PBXProject "DinoIdle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86202262C64A24D00DF05D4;
+			packageReferences = (
+			);
+			productRefGroup = B86202302C64A24D00DF05D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B862022E2C64A24D00DF05D4 /* DinoIdle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B862022D2C64A24D00DF05D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862023A2C64A24F00DF05D4 /* Preview Assets.xcassets in Resources */,
+				B86202372C64A24F00DF05D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B862022B2C64A24D00DF05D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86202532C69934E00DF05D4 /* MainGameView.swift in Sources */,
+				B86202472C64ACDE00DF05D4 /* Item.swift in Sources */,
+				B862025C2C69BA7E00DF05D4 /* DinosaurDetailView.swift in Sources */,
+				B8D9A4472C91808A003A8BA3 /* DropTableManager.swift in Sources */,
+				B862027E2C6B413C00DF05D4 /* ResourceDetailView.swift in Sources */,
+				B8B5C3692C898B39004C636D /* ProgressBarView.swift in Sources */,
+				B862026F2C6ACC7A00DF05D4 /* TabBarView.swift in Sources */,
+				B8B5C36B2C898B5C004C636D /* Resource.swift in Sources */,
+				B862027C2C6B36F200DF05D4 /* ResourceView.swift in Sources */,
+				B86202572C69940E00DF05D4 /* DinosaurView.swift in Sources */,
+				B862024D2C65C9A900DF05D4 /* GameState.swift in Sources */,
+				B862026D2C6A813000DF05D4 /* DropTable.swift in Sources */,
+				B86202712C6ACE0B00DF05D4 /* CustomTabBarItem.swift in Sources */,
+				B86202332C64A24D00DF05D4 /* DinoIdleApp.swift in Sources */,
+				B86202422C64A34900DF05D4 /* Dinosaur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B862023B2C64A24F00DF05D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B862023C2C64A24F00DF05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B862023E2C64A24F00DF05D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoIdle/Preview Content\"";
+				DEVELOPMENT_TEAM = 729ADA9GAL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DinoIdle;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondspace.DinoIdle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B862023F2C64A24F00DF05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoIdle/Preview Content\"";
+				DEVELOPMENT_TEAM = 729ADA9GAL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DinoIdle;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondspace.DinoIdle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B862022A2C64A24D00DF05D4 /* Build configuration list for PBXProject "DinoIdle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B862023B2C64A24F00DF05D4 /* Debug */,
+				B862023C2C64A24F00DF05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B862023D2C64A24F00DF05D4 /* Build configuration list for PBXNativeTarget "DinoIdle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B862023E2C64A24F00DF05D4 /* Debug */,
+				B862023F2C64A24F00DF05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B86202272C64A24D00DF05D4 /* Project object */;
+}
